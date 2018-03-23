@@ -1,1 +1,3 @@
 # Inter-speech-event-classification
+
+This work reports on classifying conversational events that happen in pause intervals between speech activity. The available classes are: audible breathing, oral clicks and silences. We implement a supervised algorithm (SVM) on labeled data of one speaker with 92\% testing accuracy on the same speaker and good first results on test data of different speakers. Additionally, we explore unsupervised methods such as DBSCAN and agglomerative clustering with t-SNE-based dimensionality reduction on a large conversational corpus. We provide visual representations of unsupervised clustering and statistics that perform best in distinguishing the classes.
